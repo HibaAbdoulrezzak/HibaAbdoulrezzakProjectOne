@@ -1,0 +1,8 @@
+.recipe{
+    margin: 20px;
+    display: flex;
+    background: white;
+    align-items: center;
+    min-width: 40%;
+}
+

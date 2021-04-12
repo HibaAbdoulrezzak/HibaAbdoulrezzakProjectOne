@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="app.js" defer></script>
+		<link rel="stylesheet" href="style.css" />
+		<title>Furrever Friend Finder</title>
+	</head>
+	<body>
+		<header>
+			<h1>Find your Furrever Pup</h1>
+			<div class="heartContainer">
+				<div id="heart"></div>
+				<div id="heart"></div>
+				<div id="heart"></div>
+				<div id="heart"></div>
+				<div id="heart"></div>
+			</div>
+
+			<p>
+				Finding the perfect dog can be a long and stressful process -
+				there are so many things to consider! Luckily this app will help
+				make the decision a bit easier! Select the answer for each
+				question below that suits you most to find out which dog breeds
+				would be the best match for you!
+			</p>
+		</header>
+
+		<form>
+			<div class="questionSection">
+				<img
+					src="./assets/508386698_bigsmall.jpg"
+					alt="A large dog looking down at a very small dog"
+					class="dogImg"
+				/>
+				<div class="questionText">
+					<label for="q1"
+						>On a scale of purse dog to miniature horse, how big of
+						a pooch do you want?</label
+					>
+					<select name="q1" id="question1" class="dropdown">
+						<option value="66.1-150">
+							I want to put Clifford to shame
+						</option>
+						<option value="58.9-66">Large and in charge</option>
+						<option value="45.7-55.8">Average</option>
+						<option value="35.6-45.7">Small enough</option>
+						<option value="22.6-35.5">Purse size</option>
+						<option value="0-22.5">Mini</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="questionSection2">
+				<img
+					src="./assets/Fat-Pugs-R-sb10069042i-001-56a7a3d63df78cf77297cd2f.jpg"
+					alt="A skinny pug next to a chonky pug"
+					class="dogImg"
+				/>
+				<div class="questionText">
+					<label for="q2"
+						>When it comes to weight, are you looking for something
+						that's easy to pick up or one with a more solid
+						build?</label
+					>
+					<select name="q2" id="question2" class="dropdown">
+						<option value="61-99">Army Tank</option>
+						<option value="36-60">Average</option>
+						<option value="16-35">
+							Heavy enough that it won't blow away
+						</option>
+						<option value="1-15">Light as a feather</option>
+					</select>
+				</div>
+			</div>
+			ß
+			<div class="questionSection">
+				<img
+					src="./assets/dogs_1280p_0.jpg"
+					alt="A young golden retriever playfully looking at an older golden retriever"
+					class="dogImg"
+				/>
+				<div class="questionText">
+					<label for="q3"
+						>Are you into more of a short term commitment or want a
+						pup that keeps on ticking?</label
+					>
+					<select name="q3" id="question3" class="dropdown">
+						<option value="1-50">In for the long haul</option>
+						<option value="51-100">Average</option>
+					</select>
+				</div>
+			</div>
+			<div class="buttonContainer">
+				<button id="submit-btn" class="button">Fetch your match</button>
+			</div>
+		</form>
+		<div class="imgwrap">
+			<div class="elseImage">
+				<img
+					id="sadPug"
+					class="sadPug"
+					src="assets/sadpug.png"
+					alt="A sad pug with the text 'No Results Found, Please Search Again'"
+				/>
+			</div>
+		</div>
+		<div id="results" class="results"></div>
+		<footer>
+			<h3>
+				Made by Sea-Doggies at
+				<a href="https://www.junocollege.com">Juno College</a> 2021
+			</h3>
+		</footer>
+	</body>
+</html>

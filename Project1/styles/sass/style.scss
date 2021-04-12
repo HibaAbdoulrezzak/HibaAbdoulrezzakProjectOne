@@ -1,0 +1,176 @@
+// Variables
+$lightBlueGrey: #b9dde7;
+$whiteShade: #f6f6f6;
+$greyBlue: #68b0c1;
+$duskBlue: #227284;
+$accent: #f38d8d;
+$black: #000;
+
+// CSS Code Starts Here
+
+.imageTwo {
+	width: 100%;
+}
+
+// .featureSection {
+// 	display: flex;
+// 	width: 100%;
+// }
+
+//Class name changed from sectionTwo > featureSection
+
+.featureSection {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 40px 200px;
+}
+
+// .featureSection {
+
+// 	// display: grid;
+// 	// grid-template-columns: 1fr 1fr;
+// 	// grid-template-rows: 1fr 1fr;
+// 	// grid-gap: 50px;
+// 	// padding: 50px;
+// 	// align-items: center;
+// 	// justify-content: center;
+// }
+
+.featureCard {
+	height: 50%;
+	width: 50%;
+}
+
+.featureCard,
+p {
+	padding: 0px;
+}
+
+/*.cardHeader {
+	display: inline-block;
+}*/
+
+// .card p {
+// 	margin-left: 0px;
+// 	margin-bottom: 10px;
+// }
+//Above syntax allows for code to specifically target elements
+
+h3 {
+	font-family: "Oswald", sans-serif;
+	font-size: 15px;
+	letter-spacing: 1px;
+	text-align: left;
+}
+
+.blogSection {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 30px;
+	background: $whiteShade;
+}
+
+.blogCard {
+	height: 100%;
+	width: 100%;
+}
+
+.rightBlogCard {
+	height: 100%;
+	width: 100%;
+}
+
+.firstbluebox {
+	height: 100%;
+	width: 100%;
+	background: $lightBlueGrey;
+	position: relative;
+}
+
+.secondbluebox {
+	height: 100%;
+	width: 100%;
+	background: $lightBlueGrey;
+	position: relative;
+}
+
+.surferImage {
+	height: 200px;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+.brickBuildingImage {
+	height: 200px;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	margin-right: 200px;
+}
+
+.innerBlogWrapper {
+	height: 50%;
+	width: 50%;
+}
+
+.innerBlogCardWrapper {
+	width: 300px;
+	padding: 20px;
+}
+
+.homeButtonRight {
+	font-family: "Oswald", sans-serif;
+	font-size: 11px;
+	padding: 5px 20px;
+	background-color: #f38d8d;
+	border: none;
+}
+
+.homeButton {
+	font-family: "Oswald", sans-serif;
+	font-size: 11px;
+	padding: 5px 20px;
+	background-color: $accent;
+	border: none;
+}
+
+.journeySection {
+	display: flex;
+	padding: 50px;
+}
+
+.harperImage {
+	height: 250px;
+}
+
+.journeyHeading {
+	font-family: "Oswald", sans-serif;
+	font-size: 25px;
+	letter-spacing: 1px;
+	text-align: left;
+}
+
+.innerJourneyWrapper {
+	padding-left: 50px;
+}
+
+.gallerySection {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+	padding-top: 100px;
+	background: $whiteShade;
+}
+
+.galleryImg {
+	height: 200px;
+	width: 200px;
+	justify-items: center;
+}
+
+@import "./styles/setup";
+@import "./styles/header";
+@import "./styles/teaser";

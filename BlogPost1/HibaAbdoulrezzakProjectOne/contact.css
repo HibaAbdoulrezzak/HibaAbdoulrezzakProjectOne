@@ -1,0 +1,140 @@
+body {
+	background: #f6f6f6;
+}
+
+.headerSection {
+	background: #b9dde7;
+	height: 250px;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 300px;
+}
+
+.nav,
+a {
+	font-family: "Oswald", sans-serif;
+	color: #000;
+	font-size: 12px;
+	line-height: 29px;
+	display: inline;
+	list-style-type: none;
+	float: center;
+	background: #b9dde7;
+	list-style-type: none;
+	text-decoration: none;
+	padding: 5px;
+}
+
+a:hover {
+	color: #f6f6f6;
+}
+
+.harperText {
+	font-family: "Oswald", sans-serif;
+	font-size: 80px;
+	text-align: center;
+	line-height: 92px;
+	letter-spacing: 1px;
+}
+
+.topBar {
+	text-align: center;
+}
+
+.icons {
+	font-size: 30px;
+	margin: 20px;
+	color: #227284;
+}
+
+.harper {
+	font-size: 20px;
+}
+
+.topheaderSection {
+	width: 100px;
+}
+
+.headerImage {
+	width: 100%;
+}
+
+.blogHeader {
+	font-family: "Oswald", sans-serif;
+	font-size: 50px;
+	margin-bottom: 150px;
+	position: absolute;
+	bottom: 20px;
+	left: 50px;
+}
+
+.outerWrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.iconWrapper {
+	background: #fff;
+	height: 250px;
+	width: 300px;
+	margin: 5px;
+	padding: 10px;
+	text-align: left;
+}
+
+.contactForm {
+	width: 500px;
+	background: #fff;
+	font-family: "Cabin", sans-serif;
+	font-size: 12px;
+	line-height: 15px;
+	letter-spacing: 1px;
+}
+
+h1 {
+	font-family: "Oswald", sans-serif;
+	font-size: 20px;
+}
+
+p {
+	font-family: "Cabin", sans-serif;
+	line-height: 32px;
+}
+
+.outerContactForm {
+	position: relative;
+	width: 900px;
+}
+
+.submitButton {
+	font-family: "Oswald", sans-serif;
+	font-size: 11px;
+	padding: 10px;
+	width: 500px;
+	background-color: #f38d8d;
+	border: none;
+}
+
+#subject {
+	height: 200px;
+	width: 100%;
+	box-sizing: border-box;
+	border: none;
+	font-family: "Cabin", sans-serif;
+}
+
+#name {
+	margin: 10px;
+	height: 60px;
+	width: 200px;
+	box-sizing: border-box;
+	border: none;
+}
+
+#email {
+	margin: 10px;
+	height: 60px;
+	width: 200px;
+	box-sizing: border-box;
+	border: none;
+}
